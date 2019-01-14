@@ -9,7 +9,9 @@
             </div>
             <h2><a class="article-title" href="#">{{ post.title }}</a></h2>
             <p class="article-content">{{ post.content }}</p>
-            <img src={{ post.image.url|default_if_none:'#' }} style='height: 100%; width: 100%; object-fit: contain' >
+            {% if post.image %}
+              <img src={{ post.image.url }} style='height: 100%; width: 100%; object-fit: contain' >
+            {% endif %}
           </div>
         </article>
 	{% endfor %}
