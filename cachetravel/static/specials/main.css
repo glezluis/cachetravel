@@ -18,12 +18,13 @@ ul {
   background-image: url("/static/images/back.jpg");
   background-repeat: no-repeat;
   background-position: top;
-  background-attachment: fixed;
-  background-size: 100% ;
+  background-attachment: scroll;
+/*  background-size: 100% ;*/
 }
 
 .bg-steel {
-  background-color: #4cc6ff;
+  background-color: #004A9D;
+  font-family: "Snell Roundhand", cursive;
 }
 
 .site-header .navbar-nav .nav-link {
