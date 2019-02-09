@@ -1,5 +1,5 @@
 # Cache Travel 
-this is the source code to (cacheanaheim.com), a website for the travel agency Cache Travel anaheim. 
+this is the source code to [cacheanaheim.com], a website for the travel agency Cache Travel anaheim. 
 
 ## Getting Started
 
