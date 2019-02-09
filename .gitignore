@@ -285,3 +285,5 @@ cachetravel/media/
 .pytest_cache/
 
 
+cachetravel/static/admin
+cachetravel/static/rest_framework
