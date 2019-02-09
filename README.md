@@ -1,5 +1,5 @@
 # Cache Travel 
-This is the source code to [cacheanaheim.com](https://cacheanaheim.com), a website for the travel agency Cache Travel anaheim. 
+This is the source code to [cacheanaheim.com](https://cacheanaheim.com), a website for the travel agency Cache Travel Anaheim. u
 
 
 
@@ -35,5 +35,5 @@ fedora-server 福 /opt/cachetravel ➤ 53d6764|master✓
 * [ngninx](https://www.nginx.com/) - web server engine
 * [gunicordn](https://gunicorn.org/) - Python WSGI HTTP Server
 * [cookiecutter](https://github.com/audreyr/cookiecutter) - Used to generate django template for deployment
-* [https://www.positivessl.com/] - SSL Certificate Validation 
+* [postivessl]([https://www.positivessl.com/) - SSL Certificate Validation 
 
