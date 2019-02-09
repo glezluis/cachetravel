@@ -28,6 +28,7 @@ fedora-server 福 /opt/cachetravel ➤ 53d6764|master✓
 :------:://:-------------::
 :---------------------://
 ```
+The html templates used for the website can be found [here](https://github.com/glezluis/cachetravel/tree/master/cachetravel/templates/specials). 
 
 ## Built With
 
