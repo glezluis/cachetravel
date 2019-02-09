@@ -1,6 +1,5 @@
-# Project Title
-
-One Paragraph of project description goes here
+# Cache Travel 
+this is the source code to (cacheanaheim.com), a website for the travel agency Cache Travel anaheim. 
 
 ## Getting Started
 
@@ -47,14 +46,14 @@ Give an example
 ### And coding style tests
 
 Explain what these tests test and why
-
 ```
 Give an example
 ```
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+Add additional notes about how to deploy this on 
+a live system
 
 ## Built With
 
@@ -79,9 +78,3 @@ See also the list of [contributors](https://github.com/your/project/contributors
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
