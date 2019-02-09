@@ -1,5 +1,12 @@
 # Cache Travel 
-this is the source code to [cacheanaheim.com], a website for the travel agency Cache Travel anaheim. 
+this is the source code to [cacheanaheim.com](cacheanaheim.com), a website for the travel agency Cache Travel anaheim. 
+
+.. image:: https://img.shields.io/badge/built%20with-Cookiecutter%20Django-ff69b4.svg
+     :target: https://github.com/pydanny/cookiecutter-django/
+     :alt: Built with Cookiecutter Django
+
+
+:License: GPLv3
 
 ## Getting Started
 
