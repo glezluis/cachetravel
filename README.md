@@ -34,7 +34,7 @@ The html templates used for the website can be found [here](https://github.com/g
 
 * [Django](https://www.djangoproject.com/) - The web framework used
 * [ngninx](https://www.nginx.com/) - web server engine
-* [gunicordn](https://gunicorn.org/) - Python WSGI HTTP Server
+* [gunicorn](https://gunicorn.org/) - Python WSGI HTTP Server
 * [cookiecutter](https://github.com/audreyr/cookiecutter) - Used to generate django template for deployment
 * [postivessl](https://www.positivessl.com/) - SSL Certificate Validation 
 
