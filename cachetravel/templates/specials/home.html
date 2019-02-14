@@ -1,17 +1,22 @@
 {% extends "specials/base.html" %}
+{%load static%}
 {% block content %}
-	{% for post in posts %}
-		<article class="media content-section">
-          <div class="media-body">
-            <div class="article-metadata">
-              <small class="text-muted">{{ post.date_posted }}</small>
-            </div>
-            <h2><a class="article-title" href="#">{{ post.title }}</a></h2>
-            <p class="article-content">{{ post.content }}</p>
-            {% if post.image %}
-              <img src={{ post.image.url|default_if_none:'#' }} style='height: 100%; width: 100%; object-fit: contain' >
-            {% endif %}
-          </div>
-        </article>
-	{% endfor %}
+
+<div class ="splash">
+  
+</div>
+  <div class = "articles">
+    {% for post in posts reversed %}
+        <div id="especiales" class ="article" > 
+          <h2><a class="article-title" href="#">{{ post.title }}</a></h2>
+          <p class='date'> </p>
+          <small class="text-muted">{{ post.date_posted }}</small>
+          <p class="article-content">{{ post.content }}</p>
+          {% if post.image %}
+            <img src={{ post.image.url|default_if_none:'#' }} >
+          {% endif %}          
+        </div>
+    {% endfor %}
+  </div>
 {% endblock content %}
+

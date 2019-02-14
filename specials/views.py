@@ -13,3 +13,4 @@ def home(request):
 def about(request):
 	return render(request, 'specials/about.html',{'title':'About'})
 
+
