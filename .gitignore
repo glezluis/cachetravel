@@ -287,3 +287,9 @@ cachetravel/media/
 
 cachetravel/static/admin
 cachetravel/static/rest_framework
+.gitignore
+cachetravel/templates/specials/base.html
+cachetravel/static/debug_toolbar/
+cachetravel/static/django_extensions/
+cachetravel/static/images/cachelogo.png
+specials/migrations/0002_post_image.py

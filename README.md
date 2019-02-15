@@ -2,6 +2,19 @@
 This is the source code to [cacheanaheim.com](https://cacheanaheim.com), a website for the travel agency Cache Travel Anaheim.
 
 
+## Built With
+
+* [Django](https://www.djangoproject.com/) - The web framework used
+* [ngninx](https://www.nginx.com/) - web server engine
+* [gunicorn](https://gunicorn.org/) - Python WSGI HTTP Server
+* [cookiecutter](https://github.com/audreyr/cookiecutter) - Used to generate django project template for deployment
+* [postivessl](https://www.positivessl.com/) - SSL Certificate Validation 
+
+
+
+The [html](https://github.com/glezluis/cachetravel/tree/master/cachetravel/templates/specials) templates contain all the content and functionality using python. 
+
+The [css](https://github.com/glezluis/cachetravel/tree/master/cachetravel/static/specials) files handle all the styling of the website using css grid, no boot-strap or other front-end framework. 
 
 ## Deployment
 
@@ -28,13 +41,3 @@ fedora-server 福 /opt/cachetravel ➤ 53d6764|master✓
 :------:://:-------------::
 :---------------------://
 ```
-The html templates used for the website can be found [here](https://github.com/glezluis/cachetravel/tree/master/cachetravel/templates/specials). 
-
-## Built With
-
-* [Django](https://www.djangoproject.com/) - The web framework used
-* [ngninx](https://www.nginx.com/) - web server engine
-* [gunicorn](https://gunicorn.org/) - Python WSGI HTTP Server
-* [cookiecutter](https://github.com/audreyr/cookiecutter) - Used to generate django project template for deployment
-* [postivessl](https://www.positivessl.com/) - SSL Certificate Validation 
-
