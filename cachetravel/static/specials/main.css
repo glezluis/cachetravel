@@ -36,7 +36,6 @@ header{
   text-shadow: 2px 2px 0px rgba(224, 37, 68.1);
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 5px 0;
   background-color: rgba(46, 61, 63, .4);
   border-radius: 20px;
   border: 2px solid #e02544;
@@ -49,7 +48,7 @@ header{
   font-size: 3.4em;
 
 }
-header img{
+.logo{
   max-height: 100%;
   justify-self: center;
 }

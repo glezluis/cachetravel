@@ -11,6 +11,6 @@ def home(request):
 
 
 def about(request):
-	return render(request, 'specials/about.html',{'title':'About'})
+	return render(request, 'specials/about.html',{'title':'Sobre Agente'})
 
 

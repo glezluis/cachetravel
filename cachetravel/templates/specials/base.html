@@ -4,7 +4,7 @@
 <head>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
     <link rel="stylesheet" type="text/css" href="{% static 'specials/main.css' %}">
-    <link rel="shortcut icon" type="image/png" href="{% static 'images/favicons/favicon.ico' %}"/>
+    <link rel="shortcut icon" type="image/png" href="{% static 'images/favicons/cachefavicon.png' %}"/>
 	{% if title %}
 		<title>Cache - {{title}}</title>
 	{% else %}
@@ -15,13 +15,14 @@
 	<header class="wrapper">
 		<div class="namephone">
 			<h1><a href="{% url 'specials-home' %}">Cache Travel Anaheim</a></h1> 
-			<h2>Call: 714-335-8408</h2>
-			<h2>Email: cacheanaheim14@gmail.com</h2>
+			<h2>Phone: 714-335-8408</h2>
+			<h2>Email: mago@cacheanaheim.com</h2>
+			<h2>License: CST2033933-40</h2>
 		</div>
-		 <img src="{%static 'images/cachelogo.png'%}">
+			<a class = "logo" href="{%url 'specials-home' %}#especiales"> <img src="{%static 'images/cachelogo.png'%}"></a>
 		<div class = "sidenav">
 			<h2><a href={%url 'specials-home' %}>Inicio</a></h2>
-			<h2><a href={%url 'specials-about' %}>About</a></h2>
+			<h2><a href={%url 'specials-about' %}>Sobre Agente</a></h2>
 			<h2><a href="{%url 'specials-home' %}#especiales">Especiales</a></h2>
 
 	  </div>
