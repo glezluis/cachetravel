@@ -1,7 +1,7 @@
-from .base import *  # noqa
+from .base import *  
 from .base import env
 
-# GENERAL
+# GENERAL 
 # ------------------------------------------------------------------------------
 # https://docs.djangoproject.com/en/dev/ref/settings/#debug
 DEBUG = True

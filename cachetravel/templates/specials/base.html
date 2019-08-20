@@ -5,6 +5,7 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
     <link rel="stylesheet" type="text/css" href="{% static 'specials/main.css' %}">
     <link rel="shortcut icon" type="image/png" href="{% static 'images/favicons/cachefavicon.png' %}"/>
+    <script src="{% static 'js/jquery-2.1.3.min.js' %}"></script>
 	{% if title %}
 		<title>Cache - {{title}}</title>
 	{% else %}
@@ -21,9 +22,9 @@
 		</div>
 			<a class = "logo" href="{%url 'specials-home' %}#especiales"> <img src="{%static 'images/cachelogo.png'%}"></a>
 		<div class = "sidenav">
-			<h2><a href={%url 'specials-home' %}>Inicio</a></h2>
-			<h2><a href={%url 'specials-about' %}>Sobre Agente</a></h2>
-			<h2><a href="{%url 'specials-home' %}#especiales">Especiales</a></h2>
+			<h2><a href={%url 'specials-home' %}>• Inicio</a></h2>
+			<h2><a href={%url 'specials-about' %}>• Sobre Agente</a></h2>
+			<h2><a href="{%url 'specials-home' %}#especiales">• Especiales</a></h2>
 
 	  </div>
 	</header>
@@ -32,5 +33,24 @@
 	{% block content %}
 	{% endblock %}
 	</div>
+
+	<script type="text/javascript">
+	 	$( window ).scroll( function(){
+	  	var ypos = $( window ).scrollTop(); //pixels the site is scrolled down
+	  	var visible = $( window ).height(); //visible pixels
+	  	const img_height = 1181; //replace with height of your image
+	  	var max_scroll = img_height - visible; //number of pixels of the image not visible at bottom
+		//change position of background-image as long as there is something not visible at the bottom
+		const slow = 12  
+		if ( max_scroll > ypos/slow) {
+	     	$('body').css('background-position', "center -" + ypos/slow + "px");
+	  	} else {
+	    	$('body').css('background-position', "center -" + max_scroll + "px");
+	  	}
+		});
+	</script>
+
+
+
 </body>
 </html>
