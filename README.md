@@ -5,9 +5,8 @@ This is the source code to [cacheanaheim.com](https://cacheanaheim.com), a websi
 ## Built With
 
 * [Django](https://www.djangoproject.com/) - The web framework used
-* [postivessl](https://www.positivessl.com/) - SSL Certificate Validation 
 * [jquery](https://jquery.com/) - styling and visual effects 
-* [ngninx](https://www.nginx.com/) - web server ePngine
+* [ngninx](https://www.nginx.com/) - web server engine
 * [gunicorn](https://gunicorn.org/) - Python WSGI HTTP Server
 * [cookiecutter](https://github.com/audreyr/cookiecutter) - Used to generate django project template for deployment
 * [postivessl](https://www.positivessl.com/) - SSL Certificate Validation 
