@@ -1,0 +1,26 @@
+[0;1;32m●[0m postgresql-11.service - PostgreSQL 11 database server
+   Loaded: loaded (/usr/lib/systemd/system/postgresql-11.service; enabled; vendor preset: disabled)
+   Active: [0;1;32mactive (running)[0m since Mon 2019-08-26 02:22:04 UTC; 6s ago
+     Docs: https://www.postgresql.org/docs/11/static/
+  Process: 7430 ExecStartPre=/usr/pgsql-11/bin/postgresql-11-check-db-dir ${PGDATA} (code=exited, status=0/SUCCESS)
+ Main PID: 7435 (postmaster)
+    Tasks: 8 (limit: 1141)
+   Memory: 15.6M
+   CGroup: /system.slice/postgresql-11.service
+           ├─7435 /usr/pgsql-11/bin/postmaster -D /var/lib/pgsql/11/data/
+           ├─7436 postgres: logger   
+           ├─7438 postgres: checkpointer   
+           ├─7439 postgres: background writer   
+           ├─7440 postgres: walwriter   
+           ├─7441 postgres: autovacuum launcher   
+           ├─7442 postgres: stats collector   
+           └─7443 postgres: logical replication launcher   
+
+Aug 26 02:22:04 fedora-server systemd[1]: Starting PostgreSQL 11 database server...
+Aug 26 02:22:04 fedora-server postmaster[7435]: 2019-08-26 02:22:04.639 UTC [7435] LOG:  listening on IPv6 address "::1", port 5432
+Aug 26 02:22:04 fedora-server postmaster[7435]: 2019-08-26 02:22:04.639 UTC [7435] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+Aug 26 02:22:04 fedora-server postmaster[7435]: 2019-08-26 02:22:04.641 UTC [7435] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+Aug 26 02:22:04 fedora-server postmaster[7435]: 2019-08-26 02:22:04.643 UTC [7435] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+Aug 26 02:22:04 fedora-server postmaster[7435]: 2019-08-26 02:22:04.656 UTC [7435] LOG:  redirecting log output to logging collector process
+Aug 26 02:22:04 fedora-server postmaster[7435]: 2019-08-26 02:22:04.656 UTC [7435] HINT:  Future log output will appear in directory "log".
+Aug 26 02:22:04 fedora-server systemd[1]: Started PostgreSQL 11 database server.

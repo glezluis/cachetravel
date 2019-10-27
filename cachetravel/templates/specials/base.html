@@ -41,7 +41,7 @@
 	  	const img_height = 1181; //replace with height of your image
 	  	var max_scroll = img_height - visible; //number of pixels of the image not visible at bottom
 		//change position of background-image as long as there is something not visible at the bottom
-		const slow = 12  
+		const slow = 12  // how much you want to slow down the background scrolling
 		if ( max_scroll > ypos/slow) {
 	     	$('body').css('background-position', "center -" + ypos/slow + "px");
 	  	} else {
@@ -53,4 +53,7 @@
 
 
 </body>
+<footer>
+	<a href="https://seal.beyondsecurity.com/vulnerability-scanner-verification/cacheanaheim.com"><img src="https://seal.beyondsecurity.com/verification-images/cacheanaheim.com/vulnerability-scanner-8.gif" alt="Vulnerability Scanner" border="0" /></a>
+</footer>
 </html>
